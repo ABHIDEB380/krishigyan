@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subsidy Calculator | Solar, Dairy, Goat, Fishery Subsidy India</title>
+    <meta name="description" content="Estimate solar subsidy for farmers India, goat farming subsidy India, dairy loan subsidy, drip irrigation subsidy, fish pond and polyhouse subsidy.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header compact"><a class="brand" href="index.html"><span class="brand-mark">KG</span><span><strong>KrishiGyan</strong><small>Subsidy Calculator</small></span></a><button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button><nav id="site-nav" class="site-nav"><a href="index.html">Home</a><a href="scheme-finder.html">Scheme Finder</a><a href="subsidy-calculator.html">Subsidy Calculator</a><a href="profit-calculator.html">Profit Calculator</a><a href="ai-advisor.html">AI Advisor</a><a href="state-benefits.html">States</a><a href="blog.html">Blog</a><a class="nav-cta" href="contact.html">Contact</a><span class="language-switch" aria-label="Language options">English / Hindi</span></nav></header>
+    <main class="page">
+      <section class="page-hero"><p class="eyebrow">Estimate benefits</p><h1>Subsidy and loan tools for farm investments</h1><p>Get a quick planning estimate before buying equipment or applying for scheme-linked finance.</p></section>
+      <section class="calculator-grid">
+        <form class="calc-card" data-calc="subsidy">
+          <h2>Subsidy Calculator</h2>
+          <label>Project type<select name="project"><option>Solar pump</option><option>Drip irrigation</option><option>Dairy unit</option><option>Goat farm</option><option>Fish pond</option><option>Polyhouse</option></select></label>
+          <label>Project cost (₹)<input name="cost" type="number" value="250000" min="0"></label>
+          <label>Estimated subsidy (%)<input name="rate" type="number" value="40" min="0" max="100"></label>
+          <button class="btn primary" type="submit">Calculate Subsidy</button>
+          <output>Estimated subsidy: ₹1,00,000</output>
+        </form>
+        <form id="loan-tool" class="calc-card" data-calc="emi">
+          <h2>Loan & EMI Tool</h2>
+          <label>Loan amount (₹)<input name="principal" type="number" value="300000" min="0"></label>
+          <label>Interest rate (%)<input name="interest" type="number" value="10" min="0" step="0.1"></label>
+          <label>Tenure (months)<input name="months" type="number" value="36" min="1"></label>
+          <button class="btn primary" type="submit">Calculate EMI</button>
+          <output>Monthly EMI: ₹9,680</output>
+        </form>
+      </section>
+      <aside class="ad-slot">Affiliate placement: solar pump, drip irrigation and agri equipment vendors</aside>
+    </main>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

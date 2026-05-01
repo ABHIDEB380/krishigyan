@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farm Profit Calculator | Goat, Dairy, Poultry, Fish & Crop Profit</title>
+    <meta name="description" content="Calculate profit for pineapple farming, goat farming, dairy farming, poultry farming, fish farming and vegetable farming in India.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header compact"><a class="brand" href="index.html"><span class="brand-mark">KG</span><span><strong>KrishiGyan</strong><small>Profit Calculator</small></span></a><button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button><nav id="site-nav" class="site-nav"><a href="index.html">Home</a><a href="scheme-finder.html">Scheme Finder</a><a href="subsidy-calculator.html">Subsidy Calculator</a><a href="profit-calculator.html">Profit Calculator</a><a href="ai-advisor.html">AI Advisor</a><a href="state-benefits.html">States</a><a href="blog.html">Blog</a><a class="nav-cta" href="contact.html">Contact</a><span class="language-switch" aria-label="Language options">English / Hindi</span></nav></header>
+    <main class="page">
+      <section class="page-hero"><p class="eyebrow">Farm planning</p><h1>Calculate expected farming profit before investing</h1><p>Model income, input costs and operating expenses for crop, dairy, goat, poultry and fish farming.</p></section>
+      <section class="tool-panel">
+        <form class="calc-card wide" data-calc="profit">
+          <h2>Farm Profit Calculator</h2>
+          <label>Farming type<select name="type"><option>Pineapple farming</option><option>Goat farming</option><option>Dairy farming</option><option>Poultry farming</option><option>Fish farming</option><option>Vegetable farming</option></select></label>
+          <label>Expected sales revenue (₹)<input name="revenue" type="number" value="450000" min="0"></label>
+          <label>Seeds / animals / stock cost (₹)<input name="stock" type="number" value="120000" min="0"></label>
+          <label>Feed / fertilizer / medicine (₹)<input name="inputs" type="number" value="85000" min="0"></label>
+          <label>Labour and other costs (₹)<input name="other" type="number" value="50000" min="0"></label>
+          <button class="btn primary" type="submit">Calculate Profit</button>
+          <output>Estimated profit: ₹1,95,000</output>
+        </form>
+      </section>
+      <div class="category-grid compact-list"><span>Pineapple farming</span><span>Goat farming</span><span>Dairy farming</span><span>Poultry farming</span><span>Fish farming</span><span>Vegetable farming</span></div>
+    </main>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
